@@ -1,0 +1,75 @@
+	@font-face {
+	  font-family: 'SSRead';
+	  src: url('../fonts/SSRead.eot?#iefix') format('embedded-opentype'),  url('../fonts/SSRead.woff') format('woff'), url('../fonts/SSRead.ttf')  format('truetype'), url('../fonts/SSRead.svg#SSRead') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
+	@font-face {
+	  font-family: 'SaremSaamii';
+	  src: url('../fonts/SaremSaamii.eot?#iefix') format('embedded-opentype'),  url('../fonts/SaremSaamii.woff') format('woff'), url('../fonts/SaremSaamii.ttf')  format('truetype'), url('../fonts/SaremSaamii.svg#SaremSaamii') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
+
+
+	body {
+		font-family: 'SSRead' !important;
+		color:#2C2C2C;
+		font-size:17px;
+		font-weight:300;
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+		font-family: 'SaremSaamii';
+		color: #07090C;
+		font-weight:700;
+	}
+
+
+	
+
+	.table-container{
+		  /*  border: 1px solid;*/
+		    height: 550px;
+		    overflow-y: scroll;
+
+		}
+		.nav-link{
+			font-size: 22px !important;
+			/*color: red!important;*/
+		}
+		.fa-cog{
+			margin-left: 57px;
+		}
+		.fa-medkit{
+			margin-left: 18px;
+		}
+
+		.fa-ambulance{
+			    margin-left: 12px;
+		}
+
+		.fa-paste{
+			margin-left: 65px;
+		}
+		.fa-list{
+			    margin-left: 50px;
+		}
+		.fa-user-md{
+			margin-left:13px;
+		}
+		.fa-user{
+			    margin-left: 80px;
+		}
+		.fa-window-close{
+			    margin-left: 6px;
+		}
+		.border-r{
+			border-right:1px solid #5a5a5a;
+			padding-right:10px;
+
+		}	
+h1{
+	font-size: 26px!important;
+}
+
